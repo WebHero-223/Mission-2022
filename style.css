@@ -1,0 +1,257 @@
+body{
+    margin: 0px;
+    background:#FFFFFF;
+    /* font-family: 'Lobster', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Yeseva One', cursive; */
+}
+/* header section start */
+.header-container{
+    display: flex;
+    padding-bottom: 100px;
+    padding-left: 7%;
+    padding-right: 4%;
+   
+     
+}
+.header-half{
+    width: 50%;
+    /* padding-left: 7%;
+    padding-right: 4%; */
+} 
+.header-text-sizing{
+    padding-top: 15%;
+}
+.text-color{
+    color:#08ba98;
+}
+.heading-text{
+    font-size: 40px;
+    font-family: 'Yeseva One', cursive;
+    border-left: 4px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+    padding-left: 10px;
+
+}
+.header-half img{
+    width: 100%;
+}
+p{
+    color: #575757;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.text-area{
+ margin-bottom: 8%;
+}
+.explore-button{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding: 10px 35px;
+    background-image: linear-gradient( 75deg,#f5572f,#f17730);
+    border-radius:7px;
+    color: whitesmoke;
+    font-weight: 500;
+    
+}
+/* header section END */
+
+/* mission-area start  */
+.mission-area{
+    /* text-align: center; */
+    /* margin-top: 50px; */
+    padding-bottom: 75px;
+}
+.mission-area h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 700;
+    font-size: 40px;
+
+}
+.mission-items{
+    display: flex;
+    padding-left: 7%;
+    padding-right: 5%;
+}
+.card-area{
+    /* border: 1px solid gray; */
+    /* box-shadow: 4px 4px 12px grey; */
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 0px 20px;
+    width: 33.33%;
+}
+.card-area  h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+/* .card-area p{
+
+} */
+
+.mission{
+    background-color:#4F9DA61A;
+     
+    
+}
+
+/* .mission-img{
+
+} */
+.mission-img img{
+    width: 100%;
+}
+.vission{
+    background: #FF59591A;
+
+}
+/* .vission-img{
+
+} */
+.vission-img img{
+    width: 100%;
+}
+.goal{
+    background: #FFF4D6;
+
+}
+/* .goal-img{
+
+} */
+.goal-img img{
+    width: 100%;
+
+}
+/* mission end */
+
+/* middle-area 1 start */
+.middle-area-1{
+    display: flex;
+    /* padding-left: 7%;
+    padding-right: 4%; */
+    margin-bottom: 75px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20%;
+
+}
+.middle-half{
+    width: 50%;
+    padding-left: 7%;
+    padding-right: 4%;
+}
+.middle-half img{
+    width: 100%;
+}
+.middle-left-center{
+    margin-left: -30px;
+    margin-top: 4%;
+
+}
+.middle-half h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.middle-half p{
+    margin-bottom: 3rem;
+}
+.read-button{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding: 10px 35px;
+    background-image: linear-gradient( 75deg,#f5572f,#f17730);
+    border-radius:7px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+/* middle area 1 end */
+
+/* middle area 2 start */
+.middle-area-2{
+    display: flex;
+    /* padding-left: 7%;
+    padding-right: 4%; */
+    margin-bottom: 75px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom 0px right 0px;
+    background-size: 20%;
+}
+.middle-half{
+    width: 50%;
+    padding-left: 7%;
+    padding-right: 4%;
+}
+.middle-half img{
+    width: 100%;
+}
+.middle-left-center{
+    margin-left: -30px;
+    margin-top: 4%;
+
+}
+.middle-half h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.middle-half p{
+    margin-bottom: 3rem;
+}
+.read-button{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    padding: 10px 35px;
+    background-image: linear-gradient( 75deg,#f5572f,#f17730);
+    border-radius:7px;
+    color: whitesmoke;
+   font-weight: 500;
+}
+/* project area */
+.projct-area{
+    margin-bottom: 75px;
+}
+.projct-area  h1{
+    text-align: center;
+    font-size:30px;
+    font-family: 'Poppins', sans-serif;
+}
+.project-container{
+ display: flex;
+ 
+}
+.project-half{
+    width: 50%;
+    padding-left: 7%;
+    padding-right: 4%;
+}
+.project-half img{
+    width: 100%;
+}
+.project-half h2{
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+}
+/* footer  area start */
+footer{
+    background: #0B0D17;
+
+}
+.footer-area{
+ text-align: center;
+ padding: 12px 0px;
+}
+.footer-area h1{
+    color: #FFFFFF;
+    font-family: 'Lobster', cursive;
+
+}
+.footer-area h5{
+    color: #D9DBE1;
+    font-family: 'Manrope', sans-serif;
+  
+}
